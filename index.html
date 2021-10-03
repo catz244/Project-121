@@ -1,0 +1,156 @@
+<html>
+
+<head>
+    <title>Case Study</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+  <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <center>
+        <div class="col-xs-12" id="header_div">
+            <h1> CASE STUDY <img src="k.gif"> </h1>
+        </div>
+    </center>
+    <br>
+    <br>
+    <hr width="100%" style="color: white;">
+    <br>
+    <br>
+        <ul>
+            <div class="test_image_and_result col-xs-12" style="float: center;">
+                <li class="col-sm-4 col-xs-12">
+                    <b style = "color: white;">Test Image - </b>
+                    <br>
+                    <img src="coffeemug.jpg" height="400px" width="300px" style="border-radius: 10px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">GOOGLE LENS</b> -
+                    <span>Coffee mug</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet</b> -
+                    <span>Coffee mug</span>
+                </h5>
+                <div class="col-xs-12 mini_result">
+                    <h4 style = "color: white;">Result - </h4>
+                    <hr>
+                    <h4 style = "color: white;">Both Google Lens and Mobilenet is Accurate.</h4>
+                </div>
+            </div>
+        </ul>
+        <br><br>
+        <ul>
+            <div class="test_image_and_result col-xs-12" style="float: center;">
+                <li class="col-sm-4 col-xs-12">
+                    <b style = "color: white;">Test Image - </b>
+                    <br>
+                    <img src="guitar.jpg" height="400px" width="300px" style="border-radius: 10px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">GOOGLE LENS</b> -
+                    <span>Acoustic guitar</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet</b> -
+                    <span>Acoustic guitar</span>
+                </h5>
+                <div class="col-xs-12 mini_result">
+                    <h4 style = "color: white;">Result - </h4>
+                    <hr>
+                    <h4 style = "color: white;">Both Google Lens and Mobilenet is Accurate.</h4>
+                </div>
+            </div>
+        </ul>
+        <br><br>
+        <ul>
+            <div class="test_image_and_result col-xs-12" style="float: center;">
+                <li class="col-sm-4 col-xs-12">
+                    <b style = "color: white;">Test Image - </b>
+                    <br>
+                    <img src="map.jpg" height="400px" width="300px" style="border-radius: 10px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">GOOGLE LENS</b> -
+                    <span>Educational World Map</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet</b> -
+                    <span>Television</span>
+                </h5>
+                <div class="col-xs-12 mini_result">
+                    <h4 style = "color: white;">Result - </h4>
+                    <hr>
+                    <h4 style = "color: white;">Google Lens is more Accurate.</h4>
+                </div>
+            </div>
+        </ul>
+        <br><br>
+        <ul>
+            <div class="test_image_and_result col-xs-12" style="float: center;">
+                <li class="col-sm-4 col-xs-12">
+                    <b style = "color: white;">Test Image - </b>
+                    <br>
+                    <img src="shoes.jpg" height="400px" width="300px" style="border-radius: 10px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">GOOGLE LENS</b> -
+                    <span>Bata lace sneakers</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet</b> -
+                    <span>Running shoes</span>
+                </h5>
+                <div class="col-xs-12 mini_result">
+                    <h4 style = "color: white;">Result - </h4>
+                    <hr>
+                    <h4 style = "color: white;">Google Lens is more Accurate.</h4>
+                </div>
+            </div>
+        </ul>
+        <br><br>
+        <ul>
+            <div class="test_image_and_result col-xs-12" style="float: center;">
+                <li class="col-sm-4 col-xs-12">
+                    <b style = "color: white;">Test Image - </b>
+                    <br>
+                    <img src="teddy bear.jpg" height="400px" width="300px" style="border-radius: 10px;">
+                </li>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">GOOGLE LENS</b> -
+                    <span>Teddy bear</span>
+                </h5>
+                <h5 class="col-sm-4 col-xs-12">
+                    Output on <b style="color: purple;">Mobilenet</b> -
+                    <span>Teddy</span>
+                </h5>
+                <div class="col-xs-12 mini_result">
+                    <h4 style = "color: white;">Result - </h4>
+                    <hr>
+                    <h4 style = "color: white;">Google Lens is more Accurate.</h4>
+                </div>
+            </div>
+        </ul>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div id = "result" class = "btn btn-primary">
+      I have tested 5 images.<br>
+      Google lens showed all of them Accurately.<br>
+      Mobilenet showed 2 of them Accurately.<br>
+      Therefore, Google Lens is more Accurate.
+   </div>
+
+    <div class="copy_right_footer">Developed by - Catherine Joseph</div>
+
+</body>
+
+</html>
